@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px 0;
+}
+
+/* CSS untuk galeri */
+.gallery {
+    display: flex;
+    flex-direction: column; /* Mengatur tata letak gambar menjadi vertikal */
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Mengatur jarak antara gambar */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Menempatkan footer secara tetap */
+    bottom: 0; /* Menempatkan footer di bagian bawah */
+    width: 100%; /* Menyesuaikan lebar footer dengan lebar layar */
+}

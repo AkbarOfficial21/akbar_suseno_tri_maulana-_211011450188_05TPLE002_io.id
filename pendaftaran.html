@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pendaftaran-styles.css">
+    <title>UKM Website</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>UKM Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="profil.html">Profile UKM</a></li>
+                    <li><a href="gallery.html">Gallery Kegiatan</a></li>
+                    <li><a href="pendaftaran.html">Menu Pendaftaran</a></li>
+                    <li><a href="kotak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>WELCOME!</h2>
+        <h3>Free Registrasi</h3>
+        <form action="/submit_registration" method="post">
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="birthdate">Tgl Lahir:</label><br>
+            <input type="date" id="birthdate" name="birthdate"><br>
+            <label for="address">Alamat:</label><br>
+            <input type="text" id="address" name="address"><br>
+            <label for="city">Kota:</label><br>
+            <input type="text" id="city" name="city"><br>
+            <label for="job">Pekerjaan:</label><br>
+            <input type="text" id="job" name="job"><br>
+            <label for="gender">Jenis Kelamin:</label><br>
+            <input type="radio" id="male" name="gender" value="Laki-Laki">
+            <label for="male">Laki-Laki</label><br>
+            <input type="radio" id="female" name="gender" value="Perempuan">
+            <label for="female">Perempuan</label><br>
+            <label for="hobby">Hobby:</label><br>
+            <input type="checkbox" id="reading" name="hobby" value="Reading">
+            <label for="reading">Reading</label><br>
+            <input type="checkbox" id="sport" name="hobby" value="Sport">
+            <label for="sport">Sport</label><br>
+            <input type="checkbox" id="singing" name="hobby" value="Singing">
+            <label for="singing">Singing</label><br>
+            <input type="checkbox" id="traveling" name="hobby" value="Traveling">
+            <label for="traveling">Traveling</label><br>
+            <input type="submit" value="Kirim">
+            <input type="reset" value="Cancel">
+        </form>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 UKM Website. Bar-bar.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
